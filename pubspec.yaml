@@ -1,0 +1,65 @@
+name: irrigation
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  pulsator: ^1.0.0+2
+  device_scan_animation: ^0.0.6
+  google_fonts: ^6.1.0
+  gap: ^3.0.1
+  intl: ^0.18.0
+  firebase_core: ^2.24.2
+  firebase_database: ^10.4.0
+  connectivity_plus: ^5.0.2
+  permission_handler: ^11.1.0
+  esptouch_smartconfig: ^1.1.0
+  flutter_svg: ^2.0.9
+  app_settings: ^5.1.1
+  url_launcher: ^6.2.2
+  syncfusion_flutter_charts: ^24.1.45
+  syncfusion_flutter_gauges: ^24.1.43
+  shared_preferences: ^2.2.2
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+  glowstone: 0.0.2
+
+  sklite: ^1.0.0
+  babstrap_settings_screen: ^0.1.6
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.9
+  flutter_oss_licenses: ^2.0.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/play_store_512.png"
+
+flutter_native_splash:
+    color: "#01baf4"
+    image: "assets/play_store_512.png"
+    android: true
+    ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - google_fonts/
+    - assets/svm.json
